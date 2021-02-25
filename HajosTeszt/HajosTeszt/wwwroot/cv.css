@@ -1,0 +1,96 @@
+﻿#mainDiv {
+    max-width: 600px;
+    width: 100%;
+    padding: 10px 25px 25px 25px;
+    background: rgb(220,220,220);
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.foglalkozas {
+    text-align: center;
+    color: green;
+    border: 1px solid green;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    max-width: 200px;
+    width: auto;
+    min-width: 50px;
+    position: relative;
+    transition: .8s;
+}
+
+    .foglalkozas:hover {
+        color: white;
+        background: green;
+    }
+
+h2 {
+    color: green;
+    margin-top: 50px;
+}
+
+p {
+    line-height: 25px;
+}
+
+span.kezdobetu {
+    font-size: 35px;
+    font-style: italic;
+}
+
+a {
+    padding: 20px;
+    border: 1px solid green;
+    margin: 15px 0;
+    display: block;
+    color: green;
+    text-align: center;
+}
+
+    a:hover {
+        color: blue;
+    }
+
+ul {
+    color: red;
+    padding: 5px 50px;
+}
+
+ol {
+    color: purple;
+    padding: 5px 50px;
+}
+
+#competencies, #traits {
+    color: white;
+    border-bottom: 1px solid white;
+    text-shadow: 1px 1px 1px black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spirit {
+    color: red;
+    font-size: 30px;
+}
